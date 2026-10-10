@@ -1,8 +1,17 @@
-# Core Whisper requirements
-# NOTA IMPORTANTE PARA GPU NVIDIA (CUDA):
-# O PyTorch com suporte a aceleração por hardware CUDA para a RTX 5060 (Blackwell) deve ser instalado com:
+# Whisper Subtitle Generator - Requisitos
+
+# 1. ACELERAÇÃO POR GPU (NVIDIA CUDA 13.2 / Blackwell RTX 5060):
+# Execute primeiro este comando para instalar os kernels compilados para sua GPU:
 # pip install torch --index-url https://download.pytorch.org/whl/cu132
 
+# 2. MOTOR FASTER-WHISPER (RECOMENDADO - 4x mais rápido, 50% menos VRAM):
+faster-whisper>=1.2.0
+nvidia-cublas-cu12>=12.9.0
+nvidia-cudnn-cu12>=9.27.0
+
+# 3. MOTOR ORIGINAL OPENAI-WHISPER:
 openai-whisper>=20250625
+
+# 4. DEPENDÊNCIAS DE SUPORTE:
 tqdm>=4.67.0
 numpy>=2.0.0
