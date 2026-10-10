@@ -1,0 +1,8 @@
+# Core Whisper requirements
+# NOTA IMPORTANTE PARA GPU NVIDIA (CUDA):
+# O PyTorch com suporte a aceleração por hardware CUDA para a RTX 5060 (Blackwell) deve ser instalado com:
+# pip install torch --index-url https://download.pytorch.org/whl/cu132
+
+openai-whisper>=20250625
+tqdm>=4.67.0
+numpy>=2.0.0

@@ -1,6 +1,3 @@
-# gerador_local_legenda_whisper_gpu
-Gerador local de legendas com o whisper utilizando a gpu do computador
-
 # 🎙️ Whisper Subtitle Generator (Aceleração Local por GPU)
 
 Projeto adaptado a partir do Jupyter Notebook original (`legenda_whisper_v2.ipynb`) para um projeto Python local, modular, com suporte nativo à aceleração por hardware via GPU dedicada **NVIDIA GeForce RTX 5060 (8 GB)** e suporte a múltiplos formatos de legenda.
